@@ -8,5 +8,5 @@ end
 
 def assign_rooms(array)
   list=[]
-  list<<array.each_with_index {|x, i| "Hello, #{x}! You'll be assigned to room #{i+1}!"}
+  array.each_with_index {|x, i| list<<"Hello, #{x}! You'll be assigned to room #{i+1}!"}
 end

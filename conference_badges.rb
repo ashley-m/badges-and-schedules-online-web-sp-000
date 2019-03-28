@@ -16,5 +16,6 @@ def printer(array)
   copy = Array.new
   copy = array
   batch_badge_creator(array).each {|x| puts x}
+  binding.pry
   assign_rooms(copy).each {|x| puts x}
 end
